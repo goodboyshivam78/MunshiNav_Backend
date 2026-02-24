@@ -1,0 +1,98 @@
+{
+  "timestamp": "2026-02-22T10:11:19.034Z",
+  "reason": "pre-restore",
+  "version": "2026-02-22T10-11-19-033Z",
+  "data": {
+    "name": "Sarkari School",
+    "campusType": "college",
+    "campusIcon": "🎓",
+    "address": "Dabri, Paunihasanpur, Vaishali, Bihar 844123",
+    "floors": [
+      {
+        "id": "ground",
+        "name": "Ground Floor",
+        "label": "G",
+        "rooms": [
+          {
+            "id": "main_entrance_a6zn",
+            "name": "Main Entrance",
+            "type": "custom_entrance",
+            "icon": "🏷️",
+            "custom": true,
+            "x": 3,
+            "y": 3,
+            "width": 42,
+            "height": 28,
+            "description": "Main Entrance — ground",
+            "connectedTo": [
+              "class_1_5_g54h",
+              "class_6_8_plvf",
+              "play_ground_bxin"
+            ]
+          },
+          {
+            "id": "class_1_5_g54h",
+            "name": "Class 1-5",
+            "type": "classroom",
+            "icon": "📖",
+            "custom": false,
+            "x": 53,
+            "y": 3,
+            "width": 42,
+            "height": 28,
+            "description": "Class 1-5 — ground",
+            "connectedTo": [
+              "main_entrance_a6zn"
+            ]
+          },
+          {
+            "id": "class_6_8_plvf",
+            "name": "Class 6-8",
+            "type": "classroom",
+            "icon": "📖",
+            "custom": false,
+            "x": 3,
+            "y": 38,
+            "width": 42,
+            "height": 28,
+            "description": "Class 6-8 — ground",
+            "connectedTo": [
+              "main_entrance_a6zn",
+              "staff_room_p6xm"
+            ]
+          },
+          {
+            "id": "staff_room_p6xm",
+            "name": "Staff Room",
+            "type": "staffroom",
+            "icon": "👩‍🏫",
+            "custom": false,
+            "x": 53,
+            "y": 38,
+            "width": 42,
+            "height": 28,
+            "description": "Staff Room — ground",
+            "connectedTo": [
+              "class_6_8_plvf"
+            ]
+          },
+          {
+            "id": "play_ground_bxin",
+            "name": "Play Ground",
+            "type": "playground",
+            "icon": "⚽",
+            "custom": false,
+            "x": 3,
+            "y": 73,
+            "width": 42,
+            "height": 28,
+            "description": "Play Ground — ground",
+            "connectedTo": [
+              "main_entrance_a6zn"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

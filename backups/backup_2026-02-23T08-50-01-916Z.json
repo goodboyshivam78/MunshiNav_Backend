@@ -1,0 +1,114 @@
+{
+  "timestamp": "2026-02-23T08:50:01.918Z",
+  "reason": "pre-restore",
+  "version": "2026-02-23T08-50-01-916Z",
+  "data": {
+    "name": "Sarkari School",
+    "campusType": "college",
+    "campusIcon": "🎓",
+    "address": "Paunihasanpur, vaishali, Bihar",
+    "floors": [
+      {
+        "id": "ground",
+        "name": "Ground Floor",
+        "label": "G",
+        "rooms": [
+          {
+            "id": "entrance_hall_6df7",
+            "name": "Entrance Hall",
+            "type": "entrance",
+            "icon": "🚪",
+            "custom": false,
+            "x": 3,
+            "y": 3,
+            "width": 42,
+            "height": 28,
+            "description": "Entrance Hall — ground",
+            "connectedTo": [
+              "class_1_5_yil1",
+              "teachers_room_8h30",
+              "playgroung_79io"
+            ]
+          },
+          {
+            "id": "class_1_5_yil1",
+            "name": "Class 1-5",
+            "type": "classroom",
+            "icon": "📖",
+            "custom": false,
+            "x": 53,
+            "y": 3,
+            "width": 42,
+            "height": 28,
+            "description": "Class 1-5 — ground",
+            "connectedTo": [
+              "entrance_hall_6df7",
+              "class_6_8_rwo2"
+            ]
+          },
+          {
+            "id": "class_6_8_rwo2",
+            "name": "Class 6-8",
+            "type": "classroom",
+            "icon": "📖",
+            "custom": false,
+            "x": 3,
+            "y": 38,
+            "width": 42,
+            "height": 28,
+            "description": "Class 6-8 — ground",
+            "connectedTo": [
+              "class_1_5_yil1",
+              "store_room_hlns"
+            ]
+          },
+          {
+            "id": "teachers_room_8h30",
+            "name": "Teachers Room",
+            "type": "staffroom",
+            "icon": "👩‍🏫",
+            "custom": false,
+            "x": 53,
+            "y": 38,
+            "width": 42,
+            "height": 28,
+            "description": "Teachers Room — ground",
+            "connectedTo": [
+              "entrance_hall_6df7"
+            ]
+          },
+          {
+            "id": "store_room_hlns",
+            "name": "Store Room",
+            "type": "custom_store",
+            "icon": "🏷️",
+            "custom": true,
+            "x": 3,
+            "y": 73,
+            "width": 42,
+            "height": 28,
+            "description": "Store Room — ground",
+            "connectedTo": [
+              "class_6_8_rwo2"
+            ]
+          },
+          {
+            "id": "playgroung_79io",
+            "name": "PlayGroung",
+            "type": "playground",
+            "icon": "⚽",
+            "custom": false,
+            "x": 53,
+            "y": 73,
+            "width": 42,
+            "height": 28,
+            "description": "PlayGroung — ground",
+            "connectedTo": [
+              "entrance_hall_6df7"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
